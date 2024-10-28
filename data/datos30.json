@@ -1,0 +1,157 @@
+[
+    {
+        "id": 1,
+        "weight": 15,
+        "profit": 22
+    },
+    {
+        "id": 2,
+        "weight": 17,
+        "profit": 31
+    },
+    {
+        "id": 3,
+        "weight": 83,
+        "profit": 94
+    },
+    {
+        "id": 4,
+        "weight": 56,
+        "profit": 20
+    },
+    {
+        "id": 5,
+        "weight": 57,
+        "profit": 6
+    },
+    {
+        "id": 6,
+        "weight": 95,
+        "profit": 15
+    },
+    {
+        "id": 7,
+        "weight": 33,
+        "profit": 9
+    },
+    {
+        "id": 8,
+        "weight": 18,
+        "profit": 42
+    },
+    {
+        "id": 9,
+        "weight": 51,
+        "profit": 47
+    },
+    {
+        "id": 10,
+        "weight": 63,
+        "profit": 94
+    },
+    {
+        "id": 11,
+        "weight": 83,
+        "profit": 81
+    },
+    {
+        "id": 12,
+        "weight": 82,
+        "profit": 37
+    },
+    {
+        "id": 13,
+        "weight": 14,
+        "profit": 24
+    },
+    {
+        "id": 14,
+        "weight": 12,
+        "profit": 89
+    },
+    {
+        "id": 15,
+        "weight": 64,
+        "profit": 28
+    },
+    {
+        "id": 16,
+        "weight": 21,
+        "profit": 27
+    },
+    {
+        "id": 17,
+        "weight": 88,
+        "profit": 10
+    },
+    {
+        "id": 18,
+        "weight": 56,
+        "profit": 55
+    },
+    {
+        "id": 19,
+        "weight": 22,
+        "profit": 39
+    },
+    {
+        "id": 20,
+        "weight": 68,
+        "profit": 82
+    },
+    {
+        "id": 21,
+        "weight": 56,
+        "profit": 7
+    },
+    {
+        "id": 22,
+        "weight": 42,
+        "profit": 34
+    },
+    {
+        "id": 23,
+        "weight": 64,
+        "profit": 39
+    },
+    {
+        "id": 24,
+        "weight": 60,
+        "profit": 69
+    },
+    {
+        "id": 25,
+        "weight": 10,
+        "profit": 8
+    },
+    {
+        "id": 26,
+        "weight": 24,
+        "profit": 51
+    },
+    {
+        "id": 27,
+        "weight": 94,
+        "profit": 31
+    },
+    {
+        "id": 28,
+        "weight": 50,
+        "profit": 34
+    },
+    {
+        "id": 29,
+        "weight": 56,
+        "profit": 45
+    },
+    {
+        "id": 30,
+        "weight": 58,
+        "profit": 97
+    },
+    {
+        "id": 31,
+        "weight": 29,
+        "profit": 63
+    }
+]

@@ -1,0 +1,202 @@
+[
+    {
+        "id": 1,
+        "weight": 57,
+        "profit": 76
+    },
+    {
+        "id": 2,
+        "weight": 36,
+        "profit": 22
+    },
+    {
+        "id": 3,
+        "weight": 75,
+        "profit": 85
+    },
+    {
+        "id": 4,
+        "weight": 17,
+        "profit": 17
+    },
+    {
+        "id": 5,
+        "weight": 30,
+        "profit": 29
+    },
+    {
+        "id": 6,
+        "weight": 77,
+        "profit": 32
+    },
+    {
+        "id": 7,
+        "weight": 23,
+        "profit": 97
+    },
+    {
+        "id": 8,
+        "weight": 17,
+        "profit": 17
+    },
+    {
+        "id": 9,
+        "weight": 61,
+        "profit": 29
+    },
+    {
+        "id": 10,
+        "weight": 79,
+        "profit": 65
+    },
+    {
+        "id": 11,
+        "weight": 65,
+        "profit": 41
+    },
+    {
+        "id": 12,
+        "weight": 64,
+        "profit": 44
+    },
+    {
+        "id": 13,
+        "weight": 73,
+        "profit": 83
+    },
+    {
+        "id": 14,
+        "weight": 13,
+        "profit": 18
+    },
+    {
+        "id": 15,
+        "weight": 22,
+        "profit": 36
+    },
+    {
+        "id": 16,
+        "weight": 63,
+        "profit": 12
+    },
+    {
+        "id": 17,
+        "weight": 50,
+        "profit": 62
+    },
+    {
+        "id": 18,
+        "weight": 40,
+        "profit": 6
+    },
+    {
+        "id": 19,
+        "weight": 86,
+        "profit": 41
+    },
+    {
+        "id": 20,
+        "weight": 53,
+        "profit": 25
+    },
+    {
+        "id": 21,
+        "weight": 90,
+        "profit": 27
+    },
+    {
+        "id": 22,
+        "weight": 45,
+        "profit": 82
+    },
+    {
+        "id": 23,
+        "weight": 15,
+        "profit": 50
+    },
+    {
+        "id": 24,
+        "weight": 20,
+        "profit": 99
+    },
+    {
+        "id": 25,
+        "weight": 10,
+        "profit": 66
+    },
+    {
+        "id": 26,
+        "weight": 29,
+        "profit": 82
+    },
+    {
+        "id": 27,
+        "weight": 55,
+        "profit": 10
+    },
+    {
+        "id": 28,
+        "weight": 17,
+        "profit": 69
+    },
+    {
+        "id": 29,
+        "weight": 30,
+        "profit": 27
+    },
+    {
+        "id": 30,
+        "weight": 50,
+        "profit": 65
+    },
+    {
+        "id": 31,
+        "weight": 29,
+        "profit": 63
+    },
+    {
+        "id": 32,
+        "weight": 99,
+        "profit": 73
+    },
+    {
+        "id": 33,
+        "weight": 28,
+        "profit": 79
+    },
+    {
+        "id": 34,
+        "weight": 20,
+        "profit": 53
+    },
+    {
+        "id": 35,
+        "weight": 33,
+        "profit": 90
+    },
+    {
+        "id": 36,
+        "weight": 47,
+        "profit": 25
+    },
+    {
+        "id": 37,
+        "weight": 96,
+        "profit": 31
+    },
+    {
+        "id": 38,
+        "weight": 12,
+        "profit": 19
+    },
+    {
+        "id": 39,
+        "weight": 79,
+        "profit": 26
+    },
+    {
+        "id": 40,
+        "weight": 4,
+        "profit": 65
+    }
+]

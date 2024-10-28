@@ -1,0 +1,102 @@
+[
+    {
+        "id": 1,
+        "weight": 7,
+        "profit": 30
+    },
+    {
+        "id": 2,
+        "weight": 65,
+        "profit": 96
+    },
+    {
+        "id": 3,
+        "weight": 96,
+        "profit": 74
+    },
+    {
+        "id": 4,
+        "weight": 76,
+        "profit": 87
+    },
+    {
+        "id": 5,
+        "weight": 33,
+        "profit": 41
+    },
+    {
+        "id": 6,
+        "weight": 76,
+        "profit": 18
+    },
+    {
+        "id": 7,
+        "weight": 12,
+        "profit": 68
+    },
+    {
+        "id": 8,
+        "weight": 40,
+        "profit": 71
+    },
+    {
+        "id": 9,
+        "weight": 75,
+        "profit": 32
+    },
+    {
+        "id": 10,
+        "weight": 52,
+        "profit": 45
+    },
+    {
+        "id": 11,
+        "weight": 17,
+        "profit": 4
+    },
+    {
+        "id": 12,
+        "weight": 3,
+        "profit": 55
+    },
+    {
+        "id": 13,
+        "weight": 65,
+        "profit": 25
+    },
+    {
+        "id": 14,
+        "weight": 48,
+        "profit": 30
+    },
+    {
+        "id": 15,
+        "weight": 51,
+        "profit": 76
+    },
+    {
+        "id": 16,
+        "weight": 52,
+        "profit": 95
+    },
+    {
+        "id": 17,
+        "weight": 81,
+        "profit": 47
+    },
+    {
+        "id": 18,
+        "weight": 10,
+        "profit": 40
+    },
+    {
+        "id": 19,
+        "weight": 58,
+        "profit": 49
+    },
+    {
+        "id": 20,
+        "weight": 41,
+        "profit": 37
+    }
+]
