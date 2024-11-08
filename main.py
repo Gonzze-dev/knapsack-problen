@@ -2,7 +2,6 @@ from Item import Item
 from knapsackBranchAndBound import knapsackBranchAndBoundMain
 from knapsackBrutalForce import brutalForce
 from knapsackGreedy import knapsackGreedyMain
-from nother import nother
 from utils import loadData
 
 
