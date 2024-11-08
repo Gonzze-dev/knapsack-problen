@@ -11,7 +11,7 @@ def calcBestCombination(W, items):
             totalWeight = sum(item.weight for item in combo)
             totalProfit = sum(item.profit for item in combo)
 
-            if totalWeight <= W and totalProfit > bestProfit:
+            if (totalWeight <= W) and (totalProfit > bestProfit):
                 bestProfit = totalProfit
                 bestComb = combo
 

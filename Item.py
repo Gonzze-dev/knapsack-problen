@@ -3,14 +3,14 @@ class Item(object):
         self.id = id
         self.weight = weight
         self.profit = profit
-        self.valuePerWeight = profit / weight
+        self.profitPerWeight = profit / weight
         
     def __str__(self):
-        return f"ID: {self.id}, weight: {self.weight}, profit: {self.profit}"
+        return f"ID: {self.id}, weight: {self.weight}, profit: {self.profit}, profitXWeigth: {self.profitPerWeight} "
     
     def __lt__(self, other):
         if isinstance(other, Item):
-            return self.valuePerWeight < other.valuePerWeight
+            return self.profitPerWeight > other.profitPerWeight
         
         return NotImplemented
     

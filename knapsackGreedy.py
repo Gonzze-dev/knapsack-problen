@@ -1,9 +1,6 @@
 import time
 
 def knapsackGreedy(items, W):
-    # Ordenar items por valor/peso en orden descendente
-    items.sort(reverse=True)
-
     totalProfit = 0
     weightAccumulated = 0
     bestItems = []

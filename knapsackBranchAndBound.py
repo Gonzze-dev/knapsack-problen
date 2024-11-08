@@ -16,20 +16,19 @@ def calculateBound(node, items, W):
     totalWeight = node.weight
 
     # Incluyendo items hasta que la mochila se llene
-    while j < len(items) and totalWeight + items[j].weight <= W:
+    while j < len(items) and (totalWeight + items[j].weight) <= W:
         totalWeight += items[j].weight
         profitBound += items[j].profit
 
         j += 1
 
-    # Si hay espacio para el siguiente item, incluir una fracción del mismo  
+    # Si hay espacio para el siguiente item, incluirlo
     if j < len(items):
-            profitBound += (W - totalWeight) * items[j].valuePerWeight
+            profitBound += (W - totalWeight) * items[j].profitPerWeight
 
     return profitBound
 
 def knapsackBranchAndBound(items, W):
-    items.sort(reverse=True)
 
     # Cola para almacenar los nodos
     queue = []

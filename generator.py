@@ -18,7 +18,7 @@ def generateRandomData(nItems, x, y, k, n):
     print(f"{nItems} ítems generados y guardados en 'data.json'.")
 
 
-nItems = 10000
+nItems = 5000
 x, y = 1, 100 
 k, n = 1, 150
 
