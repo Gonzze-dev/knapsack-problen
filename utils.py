@@ -1,5 +1,6 @@
 import json
 import os
+from time import time
 
 def loadData(path):
     '''
@@ -49,3 +50,19 @@ def loadData(path):
             print("Selección no válida.")
 
             return None
+        
+def timer(function, *args):
+    print(f"\n{function.__name__}\n")
+    
+    start = time()
+    maxProfit, bestItems = function(args)
+    end = time()
+
+    totalTime = start - end
+
+    print("Máximo beneficio:", maxProfit)
+    print("Mejor combinación de items:")
+    for item in bestItems:
+        print(item)
+
+    print(f"Tiempo de ejecucion: {totalTime:.16f}s")

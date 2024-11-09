@@ -1,8 +1,9 @@
 from Item import Item
-from knapsackBranchAndBound import knapsackBranchAndBoundMain
-from knapsackBrutalForce import brutalForce
-from knapsackGreedy import knapsackGreedyMain
-from utils import loadData
+from knapsackBranchAndBound import knapsackBranchAndBound
+from knapsackBrutalForce import knapsackBrutalForce
+from knapsackGreedy import knapsackGreedy
+
+from utils import loadData, timer
 
 
 if __name__ == "__main__":
@@ -14,7 +15,11 @@ if __name__ == "__main__":
 
     W = 50 #W representa la capacidad de la mochila
 
-    #brutalForce(items=items, W=W)
-    #knapsackBranchAndBoundMain(items=items, W=W)
-    
-    #knapsackGreedyMain(items=items, W=W)
+    #Brutal Force Method
+    #timer(knapsackBrutalForce, items, W)
+
+    #Greedy Method
+    #timer(knapsackGreedy, items, W)
+
+    #Branch And Bound Method
+    #timer(knapsackBranchAndBound, items, W)

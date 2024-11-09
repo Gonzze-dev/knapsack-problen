@@ -1,6 +1,7 @@
-import time
+def knapsackGreedy(*args):
+    items = args[0][0]
+    W = args[0][1]
 
-def knapsackGreedy(items, W):
     totalProfit = 0
     weightAccumulated = 0
     bestItems = []
@@ -13,20 +14,3 @@ def knapsackGreedy(items, W):
             bestItems.append(item)
 
     return totalProfit, bestItems
-
-
-def knapsackGreedyMain(items, W):
-    print("\nknapsack Greedy\n")
-    
-    start = time.time()
-    maxProfit, bestItems = knapsackGreedy(items, W)
-    end = time.time()
-
-    totalTime = start - end
-
-    print("Máximo beneficio:", maxProfit)
-    print("Mejor combinación de items:")
-    for item in bestItems:
-        print(item)
-
-    print(f"Tiempo de ejecucion: {totalTime:.16f}s")

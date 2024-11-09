@@ -1,5 +1,3 @@
-import time
-
 class Node:
     def __init__(self, level, profit, weight, bound):
         self.level = level      # Nivel de la hoja (nodo) en el árbol
@@ -28,7 +26,10 @@ def calculateBound(node, items, W):
 
     return profitBound
 
-def knapsackBranchAndBound(items, W):
+def knapsackBranchAndBound(*args):
+
+    items = args[0][0]
+    W = args[0][1]
 
     # Cola para almacenar los nodos
     queue = []
@@ -89,19 +90,3 @@ def knapsackBranchAndBound(items, W):
                 queue.append(excludedNode)
 
     return maxProfit, bestItems
-
-def knapsackBranchAndBoundMain(items, W):
-    print("\nknapsack Branch And Bound\n")
-
-    start = time.time()
-    maxProfit, bestItems = knapsackBranchAndBound(items, W)
-    end = time.time()
-
-    totalTime = start - end
-
-    print("Máximo beneficio:", maxProfit)
-    print("Mejor combinación de items:")
-    for item in bestItems:
-        print(item)
-
-    print(f"Tiempo de ejecucion: {totalTime:.16f}s")
